@@ -1,0 +1,37 @@
+{
+  "name": "medicinereminder",
+  "version": "1.0.0",
+  "description": "Backend API for Medicine Reminder",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ParthMalaviya6977/Medicine-Reminder.git"
+  },
+  "keywords": [
+    "Medicine",
+    "Reminder",
+    "API"
+  ],
+  "author": "Nirav Moradiya, Parth Malaviya, Parth Bhikadiya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ParthMalaviya6977/Medicine-Reminder/issues"
+  },
+  "homepage": "https://github.com/ParthMalaviya6977/Medicine-Reminder#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "moment": "^2.29.4",
+    "mongoose": "^7.5.3",
+    "node-cron": "^3.0.3",
+    "nodemon": "^3.0.1",
+    "stripe": "^14.5.0",
+    "twilio": "^4.20.0"
+  }
+}
